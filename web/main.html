@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+    <div id="container">
+        <div class="sub-container">
+            <iframe class="chart"
+                src="chart.html?title=CPU Power (W)&metrics=SOCKET POWER,STAPM LIMIT,PPT LIMIT FAST,PPT LIMIT SLOW"></iframe>
+            <iframe class="chart"
+                src="chart.html?title=CPU frequency (GHz)&metrics=CORE FREQ 0,CORE FREQ 1,CORE FREQ 2,CORE FREQ 3,CORE FREQ 4,CORE FREQ 5,CORE FREQ 6,CORE FREQ 7"></iframe>
+        </div>
+        <div class="sub-container">
+            <iframe class="chart"
+                src="chart.html?title=Temperatures (°C)&metrics=THM VALUE GFX,THM VALUE CORE,THM LIMIT CORE"></iframe>
+            <iframe class="chart" src="chart.html?title=GPU Frequency (MHz)&metrics=GFX FREQ,MEMCLK FREQ"></iframe>
+        </div>
+    </div>
+</body>
+
+</html>
