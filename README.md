@@ -35,7 +35,7 @@ You can customize *main.html* to your own needs...
 
 ## Dependencies / Libraries used
 
-* [rpms](https://gitlab.com/moson-mo/rpms/) - Renoir power metrics server. *(Needs to be installed upfront)*
+* [rpms](https://github.com/moson-mo/rpms/) - Renoir power metrics server. *(Needs to be installed upfront)*
 * [webview](https://github.com/webview/webview/) - A tiny cross-platform webview library for C/C++/Golang to build modern cross-platform GUIs.
 * [osext](https://github.com/kardianos/osext/) - Extensions to the "os" (golang) package.
 * [Chart.js](https://chartjs.org/) - Simple JavaScript library to create charts.
